@@ -3,8 +3,6 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "activeexperiment", github: "jejacks0n/active_experiment", branch: "main"
-
 gemspec
 
 gem "minitest"

@@ -30,6 +30,6 @@ Gem::Specification.new do |s|
     "rubygems_mfa_required" => "true",
   }
 
-  s.add_dependency "activeexperiment", ">= 0.1.0.alpha"
+  s.add_dependency "activeexperiment", ">= 0.1.1.alpha"
   s.add_dependency "unleash", ">= 4.4.1"
 end

@@ -1,22 +1,16 @@
-GIT
-  remote: https://github.com/jejacks0n/active_experiment.git
-  revision: ee35b597080585edccb4c2339657042c8139fc09
-  branch: main
-  specs:
-    activeexperiment (0.1.0.alpha)
-      activesupport (>= 7.0.4)
-      globalid (>= 0.3.6)
-
 PATH
   remote: .
   specs:
     activeexperiment-unleash (0.0.1)
-      activeexperiment (>= 0.1.0.alpha)
+      activeexperiment (>= 0.1.1.alpha)
       unleash (>= 4.4.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    activeexperiment (0.1.1.alpha)
+      activesupport (>= 7.0.4)
+      globalid (>= 0.3.6)
     activesupport (7.0.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
@@ -85,7 +79,6 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  activeexperiment!
   activeexperiment-unleash!
   minitest
   rake
