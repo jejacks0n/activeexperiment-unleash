@@ -76,8 +76,6 @@ module ActiveExperiment
         client = defined?(UNLEASH) ? UNLEASH : nil
         client ||= Rails.configuration.try(:unleash) if defined?(Rails)
         client || Unleash::Client.new
-      rescue StandarError
-        raise "Unable to find or create a valid Unleash::Client."
       end
     end
 
