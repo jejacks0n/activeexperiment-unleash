@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "features": [
+    {
+      "name": "MyExperimentToggle",
+      "type": "experiment",
+      "description": "This is a feature toggle for ActiveExperiment",
+      "project": "default",
+      "impressionData": true,
+      "enabled": true,
+      "stale": false,
+      "variants": [
+        {
+          "name": "blue",
+          "weight": 500,
+          "payload": {
+            "type": "string",
+            "value": "blue payload"
+          },
+          "overrides": [],
+          "weightType": "variable"
+        },
+        {
+          "name": "red",
+          "weight": 500,
+          "payload": {
+            "type": "string",
+            "value": "red payload"
+          },
+          "overrides": [],
+          "weightType": "variable"
+        }
+      ]
+    }
+  ]
+}
