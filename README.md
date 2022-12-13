@@ -1,5 +1,9 @@
 # Active Experiment – Unleash Adapter
 
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d7b4d2bc46f9a6e426f8/maintainability)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d7b4d2bc46f9a6e426f8/test_coverage)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/test_coverage)
+
 Provides an [Active Experiment](https://github.com/jejacks0n/activeexperiment) compatible interface for [Unleash](https://github.com/Unleash/unleash-client-ruby).
 
 ## Setup
