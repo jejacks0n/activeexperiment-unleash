@@ -1,8 +1,9 @@
 # Active Experiment – Unleash Adapter
 
+[![Gem Version](https://badge.fury.io/rb/activeexperiment-unleash.svg)](https://badge.fury.io/rb/activeexperiment-unleash)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d7b4d2bc46f9a6e426f8/maintainability)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d7b4d2bc46f9a6e426f8/test_coverage)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/test_coverage)
+[![Maintainability](https://img.shields.io/codeclimate/coverage-letter/jejacks0n/activeexperiment-unleash.svg?label=maintainability)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/maintainability)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/jejacks0n/activeexperiment-unleash.svg?label=test%20coverage)](https://codeclimate.com/github/jejacks0n/activeexperiment-unleash/test_coverage)
 
 Provides an [Active Experiment](https://github.com/jejacks0n/activeexperiment) compatible interface for [Unleash](https://github.com/Unleash/unleash-client-ruby).
 
