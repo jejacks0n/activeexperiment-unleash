@@ -95,7 +95,7 @@ module ActiveExperiment
 
       # Augments a given experiment class with Unleash functionality and can
       # register the variants defined on the Unleash feature toggle.
-      def self.augment(experiment_class, toggle_name, variants: false, **)
+      def self.augment(experiment_class, toggle_name:, variants: false, **)
         experiment_class.include(Mixin).unleash_toggle_name = toggle_name
         return unless variants
 
@@ -107,12 +107,10 @@ module ActiveExperiment
       # the variants defined on the Unleash feature toggle.
       def initialize(...)
         super
-        toggle_name = @rollout_options[:toggle_name]
-
         raise ArgumentError, "Unleash client not available" unless client
-        raise ArgumentError, "Missing toggle_name option" unless toggle_name
+        raise ArgumentError, "Missing toggle_name option" unless @rollout_options[:toggle_name]
 
-        self.class.augment(@experiment_class, toggle_name, **@rollout_options)
+        self.class.augment(@experiment_class, **@rollout_options)
       end
 
       # Calls +variant_for+, which sets the experiment variant and payload if a

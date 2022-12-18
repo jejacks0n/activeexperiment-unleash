@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
 require "helper"
+require "active_experiment/unleash_adapter/version"
 
 class UnleashAdapterTest < ActiveSupport::TestCase
+  test "it has a version number" do
+    assert ActiveExperiment::UnleashAdapter.version
+  end
+
   test "variants defined in unleash with a payload" do
     result = SubjectExperiment.run(id: 1)
     assert_equal "blue payload", result
